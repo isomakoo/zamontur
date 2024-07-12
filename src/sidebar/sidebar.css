@@ -1,0 +1,37 @@
+.sidebar{
+    width: 100%;
+    padding: 0;margin: 0;
+}
+.container{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 0;
+}
+.sidebar-title{
+    font-size: 48px;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+.sidebar-text{
+    font-size: 28px;
+    font-family: sans-serif;
+    color: rgb(133, 133, 133);
+    text-align: center;
+}
+.sidebar-swiper-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+}
+.sidebar-swiper {
+    background-image: url();
+    max-width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray; /* Orqa fon rangini qo'shish uchun */
+    border: 1px solid black; /* Ramka qo'shish uchun */
+  }
