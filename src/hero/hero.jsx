@@ -10,41 +10,47 @@ import { RiPlanetFill } from "react-icons/ri";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import "../styles.css";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { useTranslation } from "react-i18next";
 
 function Hero() {
+    const { t, i18n } = useTranslation();
+  
+    const handleChange = (e) => {
+      const selectedLanguage = e.target.value;
+      i18n.changeLanguage(selectedLanguage);
+    };
+  
   return (
     <>
       <div className="hero">
         <div className="container">
           <div className="hero-box">
             <nav className="boxjon">
+              <RiPlanetFill style={{ width: "50px", height: "50px" }} />
               <nav>
-              <RiPlanetFill  style={{ width: "50px", height: "50px" }} />
+              <h2 className="box-title">Zamon</h2>
+              <p className="textjon">Busnes travel</p>
               </nav>
-              <nav>
-                <h2 className="box-title">Zamon</h2>
-                <p className="textjon">Busnes travel</p>
-              </nav>
-              </nav>
-              <ul className="box-item">
-                  <li className="box-list">
-                    <a href="#" className="box-link">Bosh Sahifa</a>
-                  </li>
-                  <li className="box-list">
-                    <a href="#" className="box-link">Biz Haqimizda</a>
-                  </li>
-                  <li className="box-list">
-                    <a href="#" className="box-link">Turlar</a>
-                  </li>
-                  <li className="box-list">
-                    <a href="#" className="box-link">Kontaktlar</a>
-                  </li>
-              </ul>
-              <ul className="box-item-tu">
-                <li className="box-list"><button>Uz</button></li>
-                <li className="box-list"><button>En</button></li>
-                <li className="box-list"><button>Ru</button></li>
-              </ul>
+            </nav>
+            <ul className="box-item">
+              <li className="box-list">
+                <a href="#" className="box-link">{t('boshsahifa')}</a>
+              </li>
+              <li className="box-list">
+                <a href="#" className="box-link">{t("bizhaqimizda")}</a>
+              </li>
+              <li className="box-list">
+                <a href="#" className="box-link">{t('tur')}</a>
+              </li>
+              <li className="box-list">
+                <a href="#" className="box-link">{t('kontakt')}</a>
+              </li>
+            </ul>
+            <select name="Lng" id="lng" onChange={handleChange}>
+              <option value="uz">Uzbek</option>
+              <option value="ru">Ruscha</option>
+              <option value="en">English</option>
+            </select>
           </div>
           <Swiper
             spaceBetween={30}
@@ -60,12 +66,12 @@ function Hero() {
             <SwiperSlide id='hero-swiper-one'>
               <div className="hero-swiper-one">
                 <p className="hero-swiper-text">
-                  Siz yoqtirib qolishingiz aniq bo'lgan shahar:
+                 {t("borish")}
                 </p>
                 <h1 className="hero-title">Istanbul</h1>
                 <br />
                 <button className="hero-swiper-btn">
-                  Borishni Xohlaysizmi?
+                {t("bizhaqimizda")}
                 </button>
                 <br />
                 <ul className="hero-list">
@@ -76,7 +82,7 @@ function Hero() {
                       />
                     </nav>
                     <nav>
-                      <p className="hero-item-text">Aholisi</p>
+                      <p className="hero-item-text">{t("aholi")}</p>
                       <b className="hero-item-title">44.48 M</b>
                     </nav>
                   </li>
@@ -87,7 +93,7 @@ function Hero() {
                       />
                     </nav>
                     <nav>
-                      <p className="hero-item-text">Hududi:</p>
+                      <p className="hero-item-text">{t("hududi")}</p>
                       <b className="hero-item-title">275.400 KM2</b>
                     </nav>
                   </li>
@@ -96,13 +102,13 @@ function Hero() {
                       <AiFillHome style={{ width: "80px", height: "80px" }} />
                     </nav>
                     <nav>
-                      <p className="hero-item-text">O'rtacha narx:</p>
+                      <p className="hero-item-text">{t('narx')}</p>
                       <b className="hero-item-title">$946.000</b>
                     </nav>
                   </li>
                   <li className="hero-item">
                     <a href="#" className="hero-item-link">
-                      Ko'proq Bilish...
+                      {t("kupbilish")}
                     </a>
                   </li>
                 </ul>
@@ -111,12 +117,12 @@ function Hero() {
             <SwiperSlide id="hero-swiper-tu">
               <div className="hero-swiper-tu">
                 <p className="hero-swiper-text">
-                  Siz yoqtirib qolishingiz aniq bo'lgan shahar:
+                {t("borish")}
                 </p>
                 <h1 className="hero-title">DUBAI</h1>
                 <br />
                 <button className="hero-swiper-btn">
-                  Borishni Xohlaysizmi?
+                {t("bizhaqimizda")}
                 </button>
                 <br />
                 <ul className="hero-list">
@@ -127,7 +133,7 @@ function Hero() {
                       />
                     </nav>
                     <nav>
-                      <p className="hero-item-text">Aholisi</p>
+                      <p className="hero-item-text">{t("aholi")}</p>
                       <b className="hero-item-title">44.48 M</b>
                     </nav>
                   </li>
@@ -138,7 +144,7 @@ function Hero() {
                       />
                     </nav>
                     <nav>
-                      <p className="hero-item-text">Hududi:</p>
+                      <p className="hero-item-text">{t("hududi")}</p>
                       <b className="hero-item-title">275.400 KM2</b>
                     </nav>
                   </li>
@@ -149,13 +155,13 @@ function Hero() {
                       />
                     </nav>
                     <nav>
-                      <p className="hero-item-text">O'rtacha narx:</p>
+                      <p className="hero-item-text">{t('narx')}</p>
                       <b className="hero-item-title">$946.000</b>
                     </nav>
                   </li>
                   <li className="hero-item">
                     <a href="#" className="hero-item-link">
-                      Ko'proq Bilish...
+                    {t("kupbilish")}
                     </a>
                   </li>
                 </ul>
@@ -164,12 +170,12 @@ function Hero() {
             <SwiperSlide id="hero-swiper-siri">
               <div className="hero-swiper-siri">
                 <p className="hero-swiper-text">
-                  Siz yoqtirib qolishingiz aniq bo'lgan shahar:
+                {t("borish")}
                 </p>
                 <h1 className="hero-title">Sharm El-Sheikh</h1>
                 <br />
                 <button className="hero-swiper-btn">
-                  Borishni Xohlaysizmi?
+                {t("bizhaqimizda")}
                 </button>
                 <br />
                 <ul className="hero-list">
@@ -180,7 +186,7 @@ function Hero() {
                       />
                     </nav>
                     <nav>
-                      <p className="hero-item-text">Aholisi</p>
+                      <p className="hero-item-text">{t("aholi")}</p>
                       <b className="hero-item-title">44.48 M</b>
                     </nav>
                   </li>
@@ -191,7 +197,7 @@ function Hero() {
                       />
                     </nav>
                     <nav>
-                      <p className="hero-item-text">Hududi:</p>
+                      <p className="hero-item-text">{t("hududi")}</p>
                       <b className="hero-item-title">275.400 KM2</b>
                     </nav>
                   </li>
@@ -202,13 +208,13 @@ function Hero() {
                       />
                     </nav>
                     <nav>
-                      <p className="hero-item-text">O'rtacha narx:</p>
+                      <p className="hero-item-text">{t('narx')}</p>
                       <b className="hero-item-title">$946.000</b>
                     </nav>
                   </li>
                   <li className="hero-item">
                     <a href="#" className="hero-item-link">
-                      Ko'proq Bilish...
+                    {t("kupbilish")}
                     </a>
                   </li>
                 </ul>
@@ -217,12 +223,12 @@ function Hero() {
             <SwiperSlide id="hero-swiper-fo">
               <div className="hero-swiper-fo">
                 <p className="hero-swiper-text">
-                  Siz yoqtirib qolishingiz aniq bo'lgan shahar:
+                {t("borish")}
                 </p>
                 <h1 className="hero-title">Antalya</h1>
                 <br />
                 <button className="hero-swiper-btn">
-                  Borishni Xohlaysizmi?
+                {t("bizhaqimizda")}
                 </button>
                 <br />
                 <ul className="hero-list">
@@ -233,7 +239,7 @@ function Hero() {
                       />
                     </nav>
                     <nav>
-                      <p className="hero-item-text">Aholisi</p>
+                      <p className="hero-item-text">{t("aholi")}</p>
                       <b className="hero-item-title">44.48 M</b>
                     </nav>
                   </li>
@@ -244,7 +250,7 @@ function Hero() {
                       />
                     </nav>
                     <nav>
-                      <p className="hero-item-text">Hududi:</p>
+                      <p className="hero-item-text">{t("hududi")}</p>
                       <b className="hero-item-title">275.400 KM2</b>
                     </nav>
                   </li>
@@ -255,13 +261,13 @@ function Hero() {
                       />
                     </nav>
                     <nav>
-                      <p className="hero-item-text">O'rtacha narx:</p>
+                      <p className="hero-item-text">{t('narx')}</p>
                       <b className="hero-item-title">$946.000</b>
                     </nav>
                   </li>
                   <li className="hero-item">
                     <a href="#" className="hero-item-link">
-                      Ko'proq Bilish...
+                    {t("kupbilish")}
                     </a>
                   </li>
                 </ul>
