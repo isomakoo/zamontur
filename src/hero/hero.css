@@ -63,7 +63,7 @@
     text-align: center;
 }
 .hero-swiper-tu {
-    background-image: url('https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSj8W51xPXA3RcWauCPS8Gdm1q-I9F80WhnXgQHEwqBZcBKxYdNPbLgvG0X7bQVeqVrTpI9oN74wSFk4dbAwHrZHEdWMMqBdlVACNHXPg');
+    background-image: url('https://zamontour.uz/assets/images/dubai2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -72,7 +72,7 @@
   }
   
   .hero-swiper-one {
-    background-image: url('https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSYI0tWVGzO-zRds1NJRhLBHEkQAhVaEfdDHFWKLbe0EVOFsoDhAe7KSkq8DbDpT_7QihIeWtbv0xCYb5QgGCxKsz6meUiqYRjasBlepw');
+    background-image: url("https://zamontour.uz/assets/images/istanbul.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -81,21 +81,34 @@
   }
   
   .hero-swiper-fo {
-    background-image: url('https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRMovs3Fi1KYPxM_3RaAPCtpCOVtU44eVa4Y2s5hkzbdU2z_WrmrdVZAG5UGcevIeoFqzQ9vQZtZ-Rz_hH9auJT2E9ys-9-b7HSfa4RiQ');
+    background-image: url('https://zamontour.uz/assets/images/antalya2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;  /* kenglikni 100% qilib qo'yish yaxshiroq */
     height: 620px;
   }
-  
+  .hero-icons{
+    width: 180px;
+    height: 70px;
+  }
 .hero-swiper-siri {
-  background-image: url('https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQhu23nCaUyoy53km1oHFeHrR-vlPk0jMz78TpwIZqLJ4itJGxTed2pwEnEzBCQDvrBnR5YpxwKOoXwjMDZoadHWZEClgJ65UYc7uZm-w');
+  background-image: url("https://zamontour.uz/assets/images/sharm.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   width: 1500px;
   height: 620px; 
+}
+#lng{
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+}
+.hero-option{
+  font-size: 24px;
+  width: 120px;
+  color: rgb(41, 41, 41);
 }
 .hero-swiper-btn {
     font-size: 1.2rem;
@@ -113,6 +126,7 @@
    color:  rgb(2, 160, 160);;
   }
   .hero-item-title{
+    margin-left: 20px;
     font-size: 22px;
     color:  rgb(2, 160, 160);;
   }

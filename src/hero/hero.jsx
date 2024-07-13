@@ -25,13 +25,7 @@ function Hero() {
       <div className="hero">
         <div className="container">
           <div className="hero-box">
-            <nav className="boxjon">
-              <RiPlanetFill style={{ width: "50px", height: "50px" }} />
-              <nav>
-              <h2 className="box-title">Zamon</h2>
-              <p className="textjon">Busnes travel</p>
-              </nav>
-            </nav>
+           <img src="https://zamontour.uz/assets/images/zamon.svg" alt="rasm" className="hero-icons" />
             <ul className="box-item">
               <li className="box-list">
                 <a href="#" className="box-link">{t('boshsahifa')}</a>
@@ -46,10 +40,10 @@ function Hero() {
                 <a href="#sidebar-list" className="box-link">{t('kontakt')}</a>
               </li>
             </ul>
-            <select name="Lng" id="lng" onChange={handleChange}>
-              <option value="uz">Uzbek</option>
-              <option value="ru">Ruscha</option>
-              <option value="en">English</option>
+            <select name="Lng" id="lng" onChange={handleChange} >
+              <option className="hero-option" value="uz">Uzbek</option>
+              <option className="hero-option" value="ru">Ruscha</option>
+              <option className="hero-option" value="en">English</option>
             </select>
           </div>
           <Swiper
@@ -78,7 +72,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <LuUserCircle2
-                        style={{ width: "80px", height: "80px" }}
+                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
                       />
                     </nav>
                     <nav>
@@ -89,7 +83,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <FaMapMarkedAlt
-                        style={{ width: "80px", height: "80px" }}
+                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
                       />
                     </nav>
                     <nav>
@@ -99,7 +93,7 @@ function Hero() {
                   </li>
                   <li className="hero-item">
                     <nav>
-                      <AiFillHome style={{ width: "80px", height: "80px" }} />
+                      <AiFillHome style={{ width: "80px", height: "80px",color: 'rgb(2, 160, 160)' }} />
                     </nav>
                     <nav>
                       <p className="hero-item-text">{t('narx')}</p>
@@ -129,7 +123,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <LuUserCircle2
-                        style={{ width: "80px", height: "80px", color: "aqua" }}
+                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
                       />
                     </nav>
                     <nav>
@@ -140,7 +134,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <FaMapMarkedAlt
-                        style={{ width: "80px", height: "80px", color: "aqua" }}
+                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
                       />
                     </nav>
                     <nav>
@@ -151,7 +145,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <AiFillHome
-                        style={{ width: "80px", height: "80px", color: "aqua" }}
+                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
                       />
                     </nav>
                     <nav>
@@ -182,7 +176,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <LuUserCircle2
-                        style={{ width: "80px", height: "80px", color: "aqua" }}
+                        style={{ width: "80px", height: "80px", color: "rgb(2, 160, 160)" }}
                       />
                     </nav>
                     <nav>
@@ -193,7 +187,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <FaMapMarkedAlt
-                        style={{ width: "80px", height: "80px", color: "aqua" }}
+                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
                       />
                     </nav>
                     <nav>
@@ -204,7 +198,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <AiFillHome
-                        style={{ width: "80px", height: "80px", color: "aqua" }}
+                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
                       />
                     </nav>
                     <nav>
@@ -235,7 +229,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <LuUserCircle2
-                        style={{ width: "80px", height: "80px", color: "aqua" }}
+                        style={{ width: "80px", height: "80px", color: "rgb(2, 160, 160)" }}
                       />
                     </nav>
                     <nav>
@@ -246,7 +240,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <FaMapMarkedAlt
-                        style={{ width: "80px", height: "80px", color: "aqua" }}
+                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
                       />
                     </nav>
                     <nav>
@@ -257,7 +251,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <AiFillHome
-                        style={{ width: "80px", height: "80px", color: "aqua" }}
+                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
                       />
                     </nav>
                     <nav>
