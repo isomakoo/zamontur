@@ -37,13 +37,13 @@ function Hero() {
                 <a href="#" className="box-link">{t('boshsahifa')}</a>
               </li>
               <li className="box-list">
-                <a href="#" className="box-link">{t("bizhaqimizda")}</a>
+                <a href="#main" className="box-link">{t("bizhaqimizda")}</a>
               </li>
               <li className="box-list">
-                <a href="#" className="box-link">{t('tur')}</a>
+                <a href="#content" className="box-link">{t('tur')}</a>
               </li>
               <li className="box-list">
-                <a href="#" className="box-link">{t('kontakt')}</a>
+                <a href="#sidebar-list" className="box-link">{t('kontakt')}</a>
               </li>
             </ul>
             <select name="Lng" id="lng" onChange={handleChange}>
@@ -107,7 +107,7 @@ function Hero() {
                     </nav>
                   </li>
                   <li className="hero-item">
-                    <a href="#" className="hero-item-link">
+                    <a href="sidebar-list" className="hero-item-link">
                       {t("kupbilish")}
                     </a>
                   </li>
@@ -160,7 +160,7 @@ function Hero() {
                     </nav>
                   </li>
                   <li className="hero-item">
-                    <a href="#" className="hero-item-link">
+                    <a href="#sidebar-list" className="hero-item-link">
                     {t("kupbilish")}
                     </a>
                   </li>
@@ -213,7 +213,7 @@ function Hero() {
                     </nav>
                   </li>
                   <li className="hero-item">
-                    <a href="#" className="hero-item-link">
+                    <a href="#sidebar-list" className="hero-item-link">
                     {t("kupbilish")}
                     </a>
                   </li>
@@ -266,7 +266,7 @@ function Hero() {
                     </nav>
                   </li>
                   <li className="hero-item">
-                    <a href="#" className="hero-item-link">
+                    <a href="#sidebar-list" className="hero-item-link">
                     {t("kupbilish")}
                     </a>
                   </li>

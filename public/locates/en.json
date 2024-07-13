@@ -52,9 +52,30 @@
   "dubai.description": "Dubai - A city and emirate in the United Arab Emirates, famous for luxurious shopping, ultramodern architecture, and vibrant nightlife scene. The 830-meter-high Burj Khalifa skyscraper dominates the skyline filled with skyscrapers built in the sky. At its top is the Dubai Favourite, equipped with airplanes and lights choreographed to music. Artificial islands Atlantis, Palm, water and marine animal reservoirs Beach Resort are located in sunny halls.",
   "antalya.title": "Antalya",
   "antalya.country": "Turkey",
+  "sharm.title": "Sharm el-Sheikh",
+  "sharm.country": "Egypt",
+  "sharm.description": "Sharm el-Sheikh is a tourist center on the Sinai Peninsula, home to some of the world's best beaches. Sharm is a gateway to the Ras Mohammed National Park with underwater wonders in desert halls. The city hosts diverse species capable of attracting attention and relaxation.",
+  "istanbul.title": "Istanbul",
+  "istanbul.country": "Turkey",
+  "istanbul.description": "Istanbul is Turkey's largest city, its cultural, economic, and historical center. It is located in northwest Turkey and divided between two continents: Europe and Asia, connected by the Bosphorus Strait linking the Sea of Marmara and the Black Sea. It is the only city in the world located on two continents.",
   "antalya.description": "Antalya is Turkey's fastest growing city, where tourists from all over the world discover its wonderful beaches and the wonderful combination of traditional Turkish culture. Children will love the water slide Aqua Land and Dolphin Land with a magnificent water reservoir and an example in the center of the city.",
   "sidebarTitle": "Top Destinations",
-  "sidebarText": "Discover the best offers in every city just for you. Open up a new world and unprecedented adventures for yourself."
+  "sidebarText": "Discover the best offers in every city just for you. Open up a new world and unprecedented adventures for yourself.",
+  "bookYourSpot": "Book your spot",
+  "namePlaceholder": "Enter your name",
+  "peoplePlaceholder": "How many people",
+  "phonePlaceholder": "Enter your phone number",
+  "datePlaceholder": "Arrival date",
+  "addressTitle": "Select address",
+  "visaTitle": "Select visa type",
+  "bookButton": "Book",
+  "travelTitle": "WANT TO TRAVEL?",
+  "travelText": "Contact us now",
+  "contactLink": "Contact",
+  "sidebar.item1": "Phone Number",
+  "sidebar.item2": "Contact Us via Email",
+  "sidebar.item3": "Visit Our Office"
+
 }  
 
   

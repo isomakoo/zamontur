@@ -19,7 +19,7 @@ function Content() {
     };
   return (
     <> 
-     <div className="content">
+     <div id="content">
         <div className="container">
               <h1 className='content-title'>{t("engyaxshi")}</h1>
               <p className='content-text'> {t("harbir")}</p>
@@ -43,7 +43,7 @@ function Content() {
               <p className='content-tur-title'><FaCar /> {t('5 days trip   Hotel')}</p>
               <p className='content-tur-title'><FaAvianex /> {t('Plane ticket')}</p>
               <p className='content-tur-title'><FaTreeCity /> {t('Best destinations')}</p>
-              <button className='content-swiper-btn'>{t('Book now')}</button>
+              <button className='content-swiper-btn'>{t('book_now')}</button>
             </nav>
           </div>
         </SwiperSlide>

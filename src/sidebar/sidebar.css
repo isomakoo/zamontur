@@ -1,37 +1,157 @@
-.sidebar{
-    width: 100%;
-    padding: 0;margin: 0;
+.sidebar {
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
-.container{
-    width: 1500px;
-    margin: 0 auto;
-    padding: 0;
+.container {
+  width: 1500px;
+  margin: 0 auto;
+  padding: 0;
 }
-.sidebar-title{
-    font-size: 48px;
-    color: black;
-    font-family: sans-serif;
-    text-align: center;
+.sidebar-title {
+  font-size: 48px;
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
 }
-.sidebar-text{
-    font-size: 28px;
-    font-family: sans-serif;
-    color: rgb(133, 133, 133);
-    text-align: center;
+.sidebar-text {
+  font-size: 28px;
+  font-family: sans-serif;
+  color: rgb(133, 133, 133);
+  text-align: center;
 }
-.sidebar-swiper-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1500px;
+.sidebar-swiper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
 }
 .sidebar-swiper {
-    background-image: url();
-    max-width: 1200px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgray; /* Orqa fon rangini qo'shish uchun */
-    border: 1px solid black; /* Ramka qo'shish uchun */
-  }
+  background-image: url();
+  max-width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray; /* Orqa fon rangini qo'shish uchun */
+  border: 1px solid black; /* Ramka qo'shish uchun */
+}
+#sidebar-swiper-1 {
+  background-image: url("https://t3.ftcdn.net/jpg/02/80/77/38/360_F_280773846_J1En85VylkBFv3OFATtNahEEGZPCApMK.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 800px;
+  height: 400px; 
+}
+#sidebar-swiper-2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK47Lhrw6Rsv9aasyE_ZHv39f0q5bmMTvvPg&s");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 800px;
+  height: 400px; 
+}
+#sidebar-swiper-3 {
+  background-image: url("https://media.istockphoto.com/id/1394926557/photo/harbor-in-antalya-old-town-or-kaleici-in-turkey.jpg?s=612x612&w=0&k=20&c=suDesX6ulXRAyZytCt-2Xln7MV56iPsLd1b8impRaoE=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 800px;
+  height: 400px; 
+}
+#sidebar-swiper-4 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxSQd3bM1Bi02antrd7ejW4bZUuoP7Eu4vjg&s");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 800px;
+  height: 400px;  
+}
+#sidebar-swiper-5 {
+  background-image: url("https://cdn2.tu-tu.ru/image/pagetree_node_data/1/f3ebf67686ac24bb9a742d8fbe15e51c/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 800px;
+  height: 400px; 
+}
+#sidebar-swiper-6 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7kEN5VCNMSid8KAFwPoK43v_dFIYRVkg3zA&s");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 800px;
+  height: 400px; 
+}
+#sidebar-swiper-7 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxvzhcc-Nq2XwD0AqFzBGTz1_P5Tp7OVnKJQ&s");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 800px;
+  height: 400px; 
+}
+#sidebar-swiper-8 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYDmECzrrXg8-AN3D7jhY95rOQ8n_iH0o4ew&s");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 800px;
+  height: 400px; 
+}
+#sidebar-swiper-9 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReEH26chd5ys7VNs-Vz24IhWRD3chJdYagbA&s");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 800px;
+  height: 400px; 
+}
+.mySwiper-sidebar {
+  border-radius: 50px;
+  max-width:800px;
+  height: 400px;
+  margin-bottom: 50px;
+  
+}
+.sidebar-swiper-item{
+  font-size: 22px;
+  font-family: sans-serif;
+  color: white;
+  margin-top: -20px;
+}
+.sidebar-swiper-title{
+   font-size: 38px;
+   color: rgb(255, 255, 255);
+   font-family: sans-serif;
+}
+#sidebar-list{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.sidebar-item{
+  width: 400px;
+  height: 180px;
+  background-color: white;
+  text-align: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.sidebar-item-title{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: black;
+
+}
+.sidebar-icons{
+  margin-top: 10px;
+  width: 70px;
+  height: 70px;
+}
+.sidebar-link{
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+}

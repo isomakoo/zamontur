@@ -9,7 +9,7 @@ function Main() {
     };
   return (
     <>
-      <div className="main">
+      <div id="main">
         <div className="container">
           <h2 className="main-title">
           {t("engyaxshi")}

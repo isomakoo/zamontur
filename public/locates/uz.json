@@ -59,5 +59,19 @@
   "istanbul.country": "Turkey",
   "istanbul.description": "Istanbul Turkiyaning eng gavjum shahri va uning madaniy, iqtisodiy va tarixiy markazidir. U Turkiyaning shimoli-g'arbiy qismida joylashgan bo'lib, Marmara va Qora dengizni bog'laydigan Bosfor bo'g'ozi orqali Yevropa va Osiyo tomoniga bo'linadi. Bu ikki qit'ada joylashgan dunyodagi yagona shahar.",
   "sidebarTitle": "Eng Yaxshi Manzillar",
-  "sidebarText": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling."
+  "sidebarText": "Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling.",
+  "bookYourSpot": "O'z joyingizni band qiling",
+  "namePlaceholder": "Ismingizni kiriting",
+      "peoplePlaceholder": "Necha kishiysiz",
+      "phonePlaceholder": "Telefon raqamingizni kiriting",
+      "datePlaceholder": "Uchish sanasi",
+      "addressTitle": "Manzilni tanlang",
+      "visaTitle": "Visa turini tanlang",
+      "bookButton": "Band qilish",
+      "travelTitle": "SAYOHAT QILISHNI XOHLAYSIZMI?",
+      "travelText": "Unda biz bilan hozir bog'laning",
+      "contactLink": "Bog'lanish",
+      "sidebar.item1": "Telefon raqami",
+  "sidebar.item2": "Email orqali bog'laning",
+  "sidebar.item3": "Bizning ofisga tashrif buyuring"
 }

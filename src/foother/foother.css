@@ -1,0 +1,107 @@
+.foother{
+    width: 100%;
+    margin: 0;padding: 0;
+}
+.container{
+    width: 1500px;
+    margin: 0 auto;padding: 0;
+    align-items: center;
+}
+.foother-kart{
+    border-radius: 30px;
+    margin-left: 100px;
+}
+.foother-title{
+    font-size: 48px;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.foother-list{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.foother-input-ism, .foother-select, .foother-input-tel, .foother-input-data{
+    width: 650px;
+    height: 60px;
+    border-radius: 40px;
+    border: transparent;
+    font-size: 22px;
+}
+.foother-item-text{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(124, 124, 124);
+}
+.foother-item-title{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(124, 124, 124);
+    margin-left: 100px;
+}
+.foother-list-select{
+    width: 1350px;
+    height: 60px;
+    border-radius: 40px;
+    border: transparent;
+    font-size: 22px;
+    margin-left: 100px;
+}
+.foother-btn{
+    width: 1350px;
+    margin-left: 100px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 50px;
+    font-size: 28px;
+    border: transparent;
+    color: white;
+    background-color:  rgb(2, 160, 160);
+    transition: 0.9s;
+}
+    .foother-btn:hover{
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+    }
+    .foother-content{
+        align-items: center;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around ;
+        width: 1500px;
+        height: 300px;
+        background-color:  rgb(2, 160, 160);
+    }
+    .foother-content-title{
+        margin-top: 90px;
+        font-size: 34px;
+        color: aliceblue;
+        font-family: sans-serif;
+        font-weight: 10px;
+
+    }
+    .foother-content-text{
+        margin-top: -25px;
+        font-size: 18px;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .foother-link{
+        padding:  20px 30px; 
+        border-radius: 30px;
+        text-decoration: none;
+        color: white;
+        margin-top: 150px;
+        background-color:  rgb(2, 160, 160);
+        border: 2px solid white;
+        transition: 1s;
+    }
+    .foother-link:hover{
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+    }
