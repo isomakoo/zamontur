@@ -10,10 +10,10 @@ function App() {
   return (
     <> 
     <Hero></Hero>
-    {/* <Content></Content>
-    <Main></Main>
-     <Sidebar></Sidebar>
-     <Foother></Foother> */}
+     {/* <Content></Content>  */}
+   <Main></Main>
+      {/* <Sidebar></Sidebar>
+     <Foother></Foother>  */}
     </>
   )
 }

@@ -20,9 +20,6 @@ function Main() {
           <div className="main-list">
             <img
               src="https://zamontour.uz/assets/images/afr.jpg"
-              alt="rasm"
-              width="450px"
-              height="350px"
               className="main-img"
             />
             <nav>
@@ -31,18 +28,16 @@ function Main() {
                  {t("main.item.railways")}
                 </h3>
                 <button className="main-item-btn">{t("main.item.more")}</button>
-              </nav>
+               </nav>
               <p className="main-item-text">{t("main.item.worldwide")}</p>
               <p className="main-item-text">
                 {t("main.item.railways.description")}
               </p>
-            </nav>
+            </nav>  
           </div>
           <div className="main-list">
             <img src="https://zamontour.uz/assets/images/airplane.jpg" alt=""
-            className="main-img" 
-            width='450px'
-            height='450px'/>
+            className="main-img" />
           <nav>
               <nav className="main-item">
                 <h3 className="main-item-title">
@@ -59,7 +54,7 @@ function Main() {
           <h3 className="main-title">{t("main.item.city.title")}</h3>
           <p className="main-text">{t("main.item.city.text")}</p>
           <div className="main-list">
-            <img src="https://zamontour.uz/assets/images/dubai2.jpg" alt="rasm" className="main-img" />
+            <img src="https://zamontour.uz/assets/images/dubai2.jpg" alt="rasm" className="main-img-dubai" />
           <nav>
               <nav className="main-item">
                 <h3 className="main-item-title">

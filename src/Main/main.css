@@ -14,6 +14,7 @@
     border-radius: 20px;
 }
 .main-title{
+    margin-left: 30px;
     padding-top: 50px;
     width: 800px;
     font-size: 50px;
@@ -21,6 +22,7 @@
     color: black;
 }
 .main-text{
+    margin-left: 30px;
     width: 800px;
    font-size: 28px;
    font-family: sans-serif;
@@ -33,6 +35,7 @@
 
 }
 .main-item{
+    width: 900px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -61,6 +64,12 @@
     font-family: sans-serif;
     transition: 0.8s;
 }
+.main-img-dubai{
+    margin-top: 40px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+}
 .main-item-btn:hover{
     color: black;
     background-color: white;
@@ -71,4 +80,314 @@
     border-radius: 20px;
     width: 450px;
     height: 450px;
+}
+@media (max-width: 1500px) {
+    .container {
+        width: 100%;
+    }
+    .main-text{
+        width: 800px;
+    }
+    .main-item{
+        width: 800px;
+    }
+    .main-item-text{
+        width: 900px;
+    }
+}
+
+/* 1400px */
+@media (max-width: 1400px) {
+    .container{
+        width: 1200px;
+    }
+    .main-title {
+        font-size: 48px;
+        margin-left: 80px;
+    }
+    .main-text {
+        margin-left: 80px;
+        font-size: 26px;
+    }
+    .main-item-text{
+        width: 750px;
+    }
+    .main-list{
+        width: 1300px;
+    }
+    .main-item{
+        width: 700px;
+    }
+}
+
+/* 1300px */
+@media (max-width: 1300px) {
+    .main-title {
+        font-size: 34px;
+    }
+    .main-text {
+        font-size: 24px;
+    }
+    .main-item{
+        width: 700px;
+    }
+    .main-item-text{
+        width: 700px;
+    }
+    .main-list{
+        width: 1200px;
+    }
+}
+
+/* 1200px */
+@media (max-width: 1200px) {
+    .main-title {
+        font-size: 44px;
+    }
+    .main-text {
+        font-size: 22px;
+    }
+    .main-item-text{
+        width: 600px;
+    }
+    .main-item{
+        width: 500px;
+    }
+    .main-list{
+        width: 1100px;
+    }
+    /* .main-img, .main-img-dubai, .main-imgas{
+        width: 250px;
+    } */
+}
+
+/* 1100px */
+@media (max-width: 1100px) {
+    .main-title {
+        font-size: 42px;
+    }
+    .main-text {
+        font-size: 20px;
+    }
+    .main-item-text{
+        width: 900px;
+    }
+    .main-list{
+        width: 1000px;
+    }
+}
+
+/* 1000px */
+@media (max-width: 1000px) {
+    .main-title {
+        font-size: 40px;
+    }
+    .main-text {
+        font-size: 18px;
+    }
+    .main-item-text{
+        width: 800px;
+        font-size: 24px;
+    }
+    .main-title{
+        margin: 0;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .main-text{
+        margin: 0;
+        margin-left: 50px;
+    }
+    .main-list{
+        width: 900px;
+    }
+    
+}
+
+/* 900px */
+@media (max-width: 900px) {
+    .main-title {
+        margin: 0;
+        margin-left: 120px;
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    .main-text {
+       margin: 0;
+       margin-left: 120px;
+       font-size: 26px;
+       width: 400px;
+    }
+    .main-item-text{
+        width: 550px;
+        font-size: 28px;
+    }
+   
+    .main-img-dubai{
+      margin-top: 50px;
+      width: 550px;
+      height: 550px;
+      border-radius: 30px;
+    }
+    .main-img{
+        width: 450px;
+        height: 300px;
+    }
+    .main-item-title{
+        font-size: 34px;
+    }
+    .main-list{
+        width: 800px;
+    }
+}
+
+/* 800px */
+@media (max-width: 800px) {
+    .main-title {
+        font-size: 36px;
+    }
+    .main-text {
+        font-size: 14px;
+    }
+}
+
+/* 700px */
+@media (max-width: 700px) {
+    .main-title {
+        font-size: 34px;
+    }
+    .main-text {
+        font-size: 12px;
+    }
+}
+
+/* 600px */
+/* 600px dan kichik ekranlar uchun */
+@media (max-width: 600px) {
+    .main-list{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .main-img, .main-img-dubai, .main-imgas{
+        align-items: center;
+        text-align: center;
+        margin-left: 30px;
+        width: 90%;
+        height: 500px;
+    }
+    .main-item{
+        width: 90%
+    }
+    .main-item-text{
+        width: 90%;
+    }
+    .main-title{
+        font-size: 34px;
+        margin-bottom: 10px;
+        width: 90%;
+        text-align: center;
+    }
+    .main-text{
+        font-size: 24px;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+/* 500px */
+@media (max-width: 500px) {
+    .container{
+        width: 400px;
+        height: 5100px;
+    }
+    .main-title {
+        width: 20%;
+        font-size: 30px;
+        margin: 0;
+        margin-left: 40px;
+    }
+    .main-item-btn{
+        margin: 0;
+        margin-left: 70px;
+    }
+    .main-item-title{
+        width: 50%;
+    }
+    .main-text {
+        width: 20%;
+        font-size: 16px;
+        margin: 0;
+        margin-left: 40px;
+    }
+    .main-img, .main-img-dubai, .main-imgas{
+        width: 50%;
+    }
+    .main-item-text{
+        width: 35%;
+    }
+    .main-item{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      width: 30%;
+    }
+}
+
+/* 400px */
+@media (max-width: 400px) {
+    .main-title {
+        margin: 0;
+        width: 20%;
+        font-size: 28px;
+    }
+    .main-item-text{
+        font-size: 16px;
+    }
+    .main-text {
+        margin: 0;
+        margin-right: 30px;
+        width: 20%;
+        font-size: 18px;
+    }
+    .main-item, .main-item-text{
+        width: 40%;
+    }
+    .main-img, .main-img-dubai, .main-imgas{
+        width: 40%;
+    }
+}
+
+/* 300px */
+@media (max-width: 300px) {
+    .container{
+        text-align: center;
+    }
+    .main-title {
+        width: 50%;
+         text-align: center;
+        font-size: 28px;
+    }
+    .main-text {
+        width: 50%;
+        text-align: center;
+        font-size: 16px;
+    }
+    .main-img, .main-img-dubai, .main-imgas{
+        width: 50%;
+    }
+    .main-item, .main-item-text{
+        width: 50%;
+    }
+}
+
+/* 200px */
+@media (max-width: 200px) {
+    .main-title {
+        font-size: 24px;
+    }
+    .main-text {
+        font-size: 2px;
+    }
 }

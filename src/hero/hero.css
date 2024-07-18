@@ -36,8 +36,8 @@
     color: white;
     font-size: 20px;
     background-color: rgb(2, 160, 160);
-    padding: 10px;
-    border-radius: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
     transition: 0.6s;
 }
 .hero-item-link:hover{
