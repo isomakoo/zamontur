@@ -34,7 +34,8 @@ function Content() {
         className="mySwiper"
       >
          <SwiperSlide id='swiper-one'>
-          <div className='content-swiper'>
+          <img src="https://lh5.googleusercontent.com/p/AF1QipPh0HcRZQgDcMRt3DwCIG3Cx5hu_nhbTPflOf-b=w675-h390-n-k-no" alt="rasm" className='content-img' width='300px' height='200px'/>
+          {/* <div className='content-swiper'>
             <nav className='content-swiper-text'>
               <h3 className='content-swiper-title'>{t('Dubai')}</h3>
               <p className='content-swiper-orders'><FaUsers /> {t('300 orders / person')}</p>
@@ -45,7 +46,7 @@ function Content() {
               <p className='content-tur-title'><FaTreeCity /> {t('Best destinations')}</p>
               <button className='content-swiper-btn'>{t('book_now')}</button>
             </nav>
-          </div>
+          </div> */}
         </SwiperSlide>
         <SwiperSlide id='swiper-tu'>
       <div className='content-swiper'>

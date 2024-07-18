@@ -1,5 +1,5 @@
 import "./hero.css";
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -19,13 +19,39 @@ function Hero() {
       const selectedLanguage = e.target.value;
       i18n.changeLanguage(selectedLanguage);
     };
+    const [och, setoch]=useState(false);
+    const add=()=>{
+      e.prevenDefault(),
+      setoch(true)
+    }
   
   return (
     <>
       <div className="hero">
-        <div className="container">
           <div className="hero-box">
            <img src="https://zamontour.uz/assets/images/zamon.svg" alt="rasm" className="hero-icons" />
+           <button onClick={add} className="add-btn">batafsil</button>
+           <div style={{ display: och? 'block' : 'none' }}>
+           <ul className="box-item">
+              <li className="box-list">
+                <a href="#" className="box-link">{t('boshsahifa')}</a>
+              </li>
+              <li className="box-list">
+                <a href="#main" className="box-link">{t("bizhaqimizda")}</a>
+              </li>
+              <li className="box-list">
+                <a href="#content" className="box-link">{t('tur')}</a>
+              </li>
+              <li className="box-list">
+                <a href="#sidebar-list" className="box-link">{t('kontakt')}</a>
+              </li>
+            </ul>
+            <select name="Lng" id="lng" onChange={handleChange} >
+              <option className="hero-option" value="uz">Uzbek</option>
+              <option className="hero-option" value="ru">Ruscha</option>
+              <option className="hero-option" value="en">English</option>
+            </select>
+           </div>
             <ul className="box-item">
               <li className="box-list">
                 <a href="#" className="box-link">{t('boshsahifa')}</a>
@@ -45,7 +71,7 @@ function Hero() {
               <option className="hero-option" value="ru">Ruscha</option>
               <option className="hero-option" value="en">English</option>
             </select>
-          </div>
+            </div>
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
@@ -72,7 +98,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <LuUserCircle2
-                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
+                       className="hero-icon"
                       />
                     </nav>
                     <nav>
@@ -83,7 +109,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <FaMapMarkedAlt
-                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
+                      className="hero-icon"
                       />
                     </nav>
                     <nav>
@@ -93,7 +119,7 @@ function Hero() {
                   </li>
                   <li className="hero-item">
                     <nav>
-                      <AiFillHome style={{ width: "80px", height: "80px",color: 'rgb(2, 160, 160)' }} />
+                      <AiFillHome  className="hero-icon" />
                     </nav>
                     <nav>
                       <p className="hero-item-text">{t('narx')}</p>
@@ -123,7 +149,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <LuUserCircle2
-                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
+                         className="hero-icon"
                       />
                     </nav>
                     <nav>
@@ -134,7 +160,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <FaMapMarkedAlt
-                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
+                        className="hero-icon"
                       />
                     </nav>
                     <nav>
@@ -145,7 +171,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <AiFillHome
-                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
+                        className="hero-icon"
                       />
                     </nav>
                     <nav>
@@ -176,7 +202,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <LuUserCircle2
-                        style={{ width: "80px", height: "80px", color: "rgb(2, 160, 160)" }}
+                         className="hero-icon"
                       />
                     </nav>
                     <nav>
@@ -187,7 +213,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <FaMapMarkedAlt
-                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
+                        className="hero-icon"
                       />
                     </nav>
                     <nav>
@@ -198,7 +224,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <AiFillHome
-                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
+                       className="hero-icon"
                       />
                     </nav>
                     <nav>
@@ -229,7 +255,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <LuUserCircle2
-                        style={{ width: "80px", height: "80px", color: "rgb(2, 160, 160)" }}
+                         className="hero-icon"
                       />
                     </nav>
                     <nav>
@@ -240,7 +266,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <FaMapMarkedAlt
-                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
+                         className="hero-icon"
                       />
                     </nav>
                     <nav>
@@ -251,7 +277,7 @@ function Hero() {
                   <li className="hero-item">
                     <nav>
                       <AiFillHome
-                        style={{ width: "80px", height: "80px", color: 'rgb(2, 160, 160)' }}
+                         className="hero-icon"
                       />
                     </nav>
                     <nav>
@@ -268,7 +294,6 @@ function Hero() {
               </div>
             </SwiperSlide>
           </Swiper>
-        </div>
       </div>
     </>
   );

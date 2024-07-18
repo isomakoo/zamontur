@@ -38,8 +38,12 @@
 }
 
 #swiper-one {
-  border-radius: 50px;
-  background-image: url("https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSx_6q2q2Q5v8LAAoYT58rFJIYwJlprP2foNvskNOkzEFdmw2Uzc1GO3CeYFeasfCDyNDSwPWQYjkSxWX7US_DxUqRbGi8OM18LuJ1Vfw");
+  width: 200px;
+  height: 200px;
+}
+.content-img{
+  height: 150px;
+  border-radius: 30px;
 }
 #swiper-tu {
   border-radius: 50px;
