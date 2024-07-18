@@ -31,18 +31,23 @@
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  margin-top: 200px;
+  margin-top: 130px;
   margin-left: 90px;
   height: 500px;
-  width: 400px;
+  width: 300px;
 }
 
-#swiper-one {
+.swiper-one {
+  border-radius: 50px;
+  background-image: url("https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTnVaRP5cg6Ojj26fdBICjwbviqCGUa-4EmNhIjspI5qwVaDwiNchMpeX9-UPLpk3NuxcDJ-GB8KwMtxqo8SE90f3cAwNppChuLNAhEyA");
+  background-repeat: no-repeat;
+}
+.images{
   width: 200px;
   height: 300px;
 }
 .content-img{
-  height: 150px;
+  height: 250px;
   border-radius: 30px;
 }
 #swiper-tu {
