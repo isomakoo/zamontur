@@ -113,7 +113,7 @@
     max-width: 1000px;
   }
   #myswiper{
-    max-width: 1000px;
+    max-width: 990px;
   }
 }
 @media (max-width: 1000px)  {
@@ -122,6 +122,14 @@
   }
   #myswiper{
    max-width: 900px;
+  }
+  .content-text{
+    width: 900px;
+    text-align: center;
+  }
+  .content-title{
+    width: 900px;
+    text-align: center;
   }
 }
 @media (max-width: 900px)  {
