@@ -13,15 +13,238 @@
 }
 .swiper-slider{
   width: 350px;
-  border-radius: 50px;
-  border: 3px solid black;
 }
 .content-img{
   max-width: 300px;
   border-radius: 20px;
   position: absolute;
 }
+.swiper-nav{
+  display: flex;
+  align-items: center;
+}
+.swiper-btn{
+  background-color:   rgb(2, 160, 160);;
+  padding: 10px 30px;
+  color: white;
+  border: transparent;
+  font-size: 16px;
+ border-radius: 20px;
+ transition: 1s;
+}
+.swiper-btn:hover{
+  background-color: white;
+  color: rgb(72, 72, 72);
+  border: 1px solid black;
+}
+.swiper-card-texc{
+ font-size: 16px;
+ font-weight: 10;
+ 
+}
+.swiper-card{
+  width: 300px !important;
+  margin: 0 !important;
+  border-radius: 40px;
+  margin-left: 50px !important;
+  margin-top: 20px !important;
+  height: 360px;
+  background-color: white;
+  padding-left: 10px;
+}
+.content-title{
+  font-size: 44px;
+  width: 1200px;
+  text-align: center;
+}
+.content-text{
+  width: 1200px;
+  text-align: center;
+  font-size: 28px;
+  color: rgb(62, 62, 62);
+}
+.swiper-img {
+  position: fixed;
+  z-index: -1;
+  width: 300px !important;
+  height: 200px  !important;
+  margin: 0;
+  border-radius: 40px 0px 0 40px;
+  margin-top: -280px !important; /* Fixed positionda top va right qiymatlarini aniq belgilash */
+  right: 80px;
+}
 .content-card{
   width: 300px;
   height: 400px;
+}
+#swiper-slider-1 {
+  border: 3px solid red;
+  background-image: url('https://zamontour.uz/assets/images/cand.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 400px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1200px)  {
+  .container{
+    max-width: 1100px;
+  }
+  .content-text{
+    width: 1000px;
+    text-align: center;
+  }
+  .content-title{
+    width: 1000px;
+    text-align: center;
+  }
+  .swiper-card{
+    width: 280px !important;
+  }
+  .swiper-slider{
+    width: 300px;
+  }
+}
+@media (max-width: 1100px)  {
+  .container{
+    max-width: 1000px;
+  }
+  #myswiper{
+    max-width: 1000px;
+  }
+}
+@media (max-width: 1000px)  {
+  .container{
+    max-width: 900px;
+  }
+  #myswiper{
+   max-width: 900px;
+  }
+}
+@media (max-width: 900px)  {
+  .container{
+    max-width: 800px;
+  }
+  .content-text{
+    width: 800px;
+    text-align: center;
+  }
+  .content-title{
+    max-width: 800px;
+    text-align: center;
+  }
+  #myswiper{
+    max-width: 800px;
+  }
+}@media (max-width: 800px)  {
+  .container{
+    max-width: 700px;
+  }
+  #myswiper{
+    max-width: 700px;
+  }
+  .content-text{
+    width: 700px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .content-title{
+    width: 700px;
+    text-align: center;
+    font-size: 38px;
+  }
+}@media (max-width: 700px)  {
+  .container{
+    max-width: 600px;
+  }
+  .content-text{
+    width: 600px;
+    text-align: center;
+  }
+  .content-title{
+    width: 600px;
+    text-align: center;
+
+  }
+  #myswiper{
+    max-width: 600px;
+  }
+}@media (max-width: 600px)  {
+  .container{
+    max-width: 500px;
+  }
+  .content-text{
+    width: 500px;
+    text-align: center;
+  }
+  .content-title{
+    width: 500px;
+    text-align: center;
+  }
+  #myswiper{
+    max-width: 500px;
+  }
+}@media (max-width: 500px)  {
+  .container{
+    max-width: 400px;
+  }
+  .content-text{
+    width: 400px;
+    text-align: center;
+  }
+  .content-title{
+    width: 400px;
+    text-align: center;
+    
+  }
+  #myswiper{
+    max-width: 400px;
+  }
+}@media (max-width: 400px)  {
+  .container{
+    max-width: 300px;
+  }
+  .content-text{
+    width: 300px;
+    text-align: center;
+  }
+  .content-title{
+    width: 300px;
+    text-align: center;
+    
+  }
+  .swiper-img{
+    display: none !important;
+    width: 250px !important;
+    margin: 0 !important;
+  }
+  .swiper-card{
+    margin-right: 100px !important;
+    margin: 0 !important;
+  }
+  .swiper-slider{
+    width: 300px !important;
+  }
+  #myswiper{
+    max-width: 300px;
+  }
+}@media (max-width: 300px)  {
+  .container{
+    max-width: 250px;
+  }
+  .content-text{
+    width: 250px;
+    text-align: center;
+  }
+  #myswiper{
+    max-width: 250px;
+  }
+  .content-title{
+    width: 250px;
+    text-align: center;
+    
+  }
 }

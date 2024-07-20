@@ -12,7 +12,9 @@ function App() {
   const { t } = useTranslation(); 
   return (
     <> 
+    
       <Hero />
+      <Content></Content>
       <Main />
       <Sidebar />
       <Foother />   
