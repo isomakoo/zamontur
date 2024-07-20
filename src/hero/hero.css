@@ -4,15 +4,18 @@
     margin: 0;
 }
 .container{
-    width: 1500px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0;
 }
-.hero-box{
-    background-color: rgb(2, 160, 160);
-    height: 60px;
-    padding: 0;
-    margin: 0;
+.hero-box {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: rgb(2, 160, 160);
+  height: 60px;
+  padding: 0;
+  margin: 0 auto;
 }
 .hero-list{
     width: 1200px;
@@ -55,6 +58,10 @@
    padding-top: 100px;
  color: rgb(255, 255, 255);
 }
+.herojon-icon{
+  width: 30px;height: 20px;
+  color: rgb(2, 160, 160);
+}
 .hero-title{
     color: white;
     font-size: 60px;
@@ -88,7 +95,7 @@
     height: 640px;
   }
   .hero-icons{
-    width: 200px;
+    width: 300px;
     height: 100px;
   }
 #hero-swiper-siri {
@@ -100,12 +107,33 @@
   height: 640px; 
 }
 #lng{
-  width: 120px;
-  height: 30px;
+  width: 40px;
+  height: 20px;
   border-radius: 10px;
 }
-.hero-option{
+.hero-modal{
+  height: 300px;
+}
+.w{
+  margin: 0;
+}
+.hero-ico{
+  width: 220px;
+}
+.hero-icon{
+  width: 100px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.box-linkes{
   font-size: 24px;
+   color: rgb(74, 74, 74);
+}
+.box-linkes:hover{
+  color: aqua;
+}
+.hero-option{
+  font-size: 12px;
   width: 120px;
   color: rgb(41, 41, 41);
 }
@@ -193,7 +221,7 @@
     width: 1100px;
   margin: 0;
 margin-top: 50px;  }
-  .hero-icon{
+  .hero-icons{
     width: 70px;
     height: 70px;
   }
@@ -353,9 +381,6 @@ margin-top: 50px;  }
 .box-item{
   display: none;
 }
-#lng{
-  display: none;
-}
 .add-btn{
   display: block;
 }
@@ -380,7 +405,7 @@ margin-top: 50px;  }
     padding: 10px 35px;
    
   }
-  .hero-icons{
+  .hero-ico{
     width: 180px;
   }
 }
@@ -411,7 +436,7 @@ margin-top: 50px;  }
   .hero-list {
       width: 280px;
   }
-  .hero-icons{
+  .hero-ico{
     width: 160px;
   }
 }
@@ -430,7 +455,7 @@ margin-top: 50px;  }
   .hero-item-text{
     width: 120px;
   }
-  .hero-icons{
+  .hero-ico{
     width: 140px;
   }
   .hero-swiper-btn{

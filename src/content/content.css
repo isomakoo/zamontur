@@ -1,141 +1,27 @@
-#content {
+.content{
   width: 100%;
-  padding: 0;
-  margin: 0;
+  margin: 0;padding: 0;
 }
-.conatiner {
-  width: 1500px;
+.container{
+  width: 1200px;
   margin: 0 auto;
   padding: 0;
-  text-align: center;
 }
-.content-title {
-  padding-top: 40px;
-  font-size: 56px;
-  color: black;
-  font-family: sans-serif;
-  text-align: center;
+#myswiper{
+  width: 1200px;
+  height: 450px;
 }
-.content-text {
-  margin-left: 250px;
-  width: 1000px;
-  font-size: 30px; color: rgb(133, 133, 133);
- 
-  font-family: sans-serif;
-  text-align: center;
-}
-.content-swiper {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  margin-top: 130px;
-  margin-left: 90px;
-  height: 500px;
-  width: 300px;
-}
-
-.swiper-one {
+.swiper-slider{
+  width: 350px;
   border-radius: 50px;
-  background-image: url("https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTnVaRP5cg6Ojj26fdBICjwbviqCGUa-4EmNhIjspI5qwVaDwiNchMpeX9-UPLpk3NuxcDJ-GB8KwMtxqo8SE90f3cAwNppChuLNAhEyA");
-  background-repeat: no-repeat;
-}
-.images{
-  width: 200px;
-  height: 300px;
+  border: 3px solid black;
 }
 .content-img{
-  height: 250px;
-  border-radius: 30px;
+  max-width: 300px;
+  border-radius: 20px;
+  position: absolute;
 }
-#swiper-tu {
-  border-radius: 50px;
-  background-image: url("https://lh5.googleusercontent.com/p/AF1QipPkiFNo4E5CVdZQ_2_XLrwgpJvAQAkwK4598IF2=w675-h390-n-k-no");
-}
-#swiper-siri {
-  border-radius: 50px;
-  background-image: url("https://lh5.googleusercontent.com/p/AF1QipPh0HcRZQgDcMRt3DwCIG3Cx5hu_nhbTPflOf-b=w675-h390-n-k-no");
-}
-#swiper-fo {
-  border-radius: 50px;
-  background-image: url("https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRMovs3Fi1KYPxM_3RaAPCtpCOVtU44eVa4Y2s5hkzbdU2z_WrmrdVZAG5UGcevIeoFqzQ9vQZtZ-Rz_hH9auJT2E9ys-9-b7HSfa4RiQ");
-}
-#swiper-fife {
-  border-radius: 50px;
-  background-image: url("https://lh5.googleusercontent.com/p/AF1QipOuGyT1k143Rp5xmx7bzfPiQNRdZqeKDAf9UVK2=w675-h390-n-k-no");
-}
-#swiper-sex {
-  border-radius: 50px;
-  background-image: url("https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSx_6q2q2Q5v8LAAoYT58rFJIYwJlprP2foNvskNOkzEFdmw2Uzc1GO3CeYFeasfCDyNDSwPWQYjkSxWX7US_DxUqRbGi8OM18LuJ1Vfw");
-}
-#swiper-seven {
-  border-radius: 50px;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvFtzqPGaekmpMmBGzsuxTZOUDU0kX9e7BgQ&s");
-}
-#swiper-eigt {
-  border-radius: 50px;
-  background-image: url("https://zamontour.uz/assets/images/saudi.jpg");
-}
-#swiper-nine {
-  border-radius: 50px;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfFmdPPxgHIq4Vckw7F8zwKKo10dSn0RlnqQ&s')
-}
-.content-swiper-text {
-  padding: 20px;
-}
-
-.content-swiper-title {
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-bottom: 0.5em;
-}
-
-.content-swiper-orders,
-.content-swiper-price {
-  font-size: 1.2em;
-  color: #888;
-  margin-bottom: 0.5em;
-}
-
-.content-swiper-price {
-  color: rgb(2, 160, 160);
-  font-weight: bold;
-}
-
-.content-swiper-tur-title {
-  font-weight: bold;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-}
-
-.content-tur-title {
-  display: flex;
-  align-items: center;
-  font-size: 1em;
-  margin-bottom: 0.5em;
-}
-
-.content-tur-title svg {
-  margin-right: 0.5em;
-}
-
-.content-swiper-btn {
-  background-color: rgb(2, 160, 160);
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1em;
-  cursor: pointer;
-  margin-top: 1em;
-  text-align: center;
-  transition: 0.7s;
-}
-
-.content-swiper-btn:hover {
-  color: rgb(102, 102, 102);
-  background-color: white;
-  border: 1px solid black;
+.content-card{
+  width: 300px;
+  height: 400px;
 }

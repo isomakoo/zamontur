@@ -70,7 +70,7 @@ function Main() {
           </div>
           
           <div className="main-list">
-            <img src="https://zamontour.uz/assets/images/country-02.jpg" alt="rasm" className="main-imgas" />
+            <img src="https://zamontour.uz/assets/images/country-02.jpg" alt="rasm" className="main-imgas-antaliya" />
           <nav>
               <nav className="main-item">
                 <h3 className="main-item-title">
