@@ -50,7 +50,7 @@ function Hero() {
         <img
           src="https://zamontour.uz/assets/images/zamon.svg"
           alt="rasm"
-          className="hero-icons"
+          className="hero-images-1"
         />
           <div className="hero-madol">
           <a href="#" className="box-linkes">

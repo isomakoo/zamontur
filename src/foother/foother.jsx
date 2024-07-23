@@ -22,52 +22,54 @@ function Foother() {
           ></iframe>
           <h1 className="foother-title">{t("bookYourSpot")}</h1>
           <ul className="foother-list">
-                        <li className="foother-item">
-                            <label htmlFor="nameInput" className="foother-item-text">
-                                {t('namePlaceholder')}
-                            </label>
-                            <select id="peopleSelect" className="foother-select">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4+">4+</option>
-                            </select>
-                            <br />
-                            <label htmlFor="peopleSelect" className="foother-item-text">
-                                {t('peoplePlaceholder')}
-                            </label>
-                            <br />
-                            <select id="peopleSelect" className="foother-select">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4+">4+</option>
-                            </select>
-                            <br />
-                        </li>
-                        <li className="foother-item">
-                            <label htmlFor="phoneInput" className="foother-item-text">
-                                {t('phonePlaceholder')}
-                            </label> <br />
-                            <select id="peopleSelect" className="foother-select">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4+">4+</option>
-                            </select>
-                            <br />
-                            <label htmlFor="dateInput" className="foother-item-text">
-                                {t('datePlaceholder')}
-                            </label>
-                            <br />
-                            <select id="peopleSelect" className="foother-select">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4+">4+</option>
-                            </select>
-                        </li>
-                    </ul>
+            <li className="foother-item">
+              <label htmlFor="nameInput" className="foother-item-text">
+                {t("namePlaceholder")}
+              </label>
+              <select id="peopleSelect" className="foother-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4+">4+</option>
+              </select>
+
+              <br />
+              <label htmlFor="peopleSelect" className="foother-item-text">
+                {t("peoplePlaceholder")}
+              </label>
+              <br />
+              <select id="peopleSelect" className="foother-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4+">4+</option>
+              </select>
+              <br />
+            </li>
+            <li className="foother-item">
+              <label htmlFor="phoneInput" className="foother-item-text">
+                {t("phonePlaceholder")}
+              </label>{" "}
+              <br />
+              <select id="peopleSelect" className="foother-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4+">4+</option>
+              </select>
+              <br />
+              <label htmlFor="dateInput" className="foother-item-text">
+                {t("datePlaceholder")}
+              </label>
+              <br />
+              <select id="peopleSelect" className="foother-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4+">4+</option>
+              </select>
+            </li>
+          </ul>
 
           <label htmlFor="addressSelect" className="foother-item-title">
             {t("addressTitle")}

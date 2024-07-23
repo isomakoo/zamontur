@@ -25,13 +25,13 @@ function Sidebar() {
         <div className="container">
           <h1 className="sidebar-title">{t("sidebarTitle")}</h1>
           <p className="sidebar-text">{t("sidebarText")}</p>
-          <div class="wrapper">
+          <div className="wrapper">
             <div id="container">
               <input type="radio" name="slide" id="c1"></input>
-              <label for="c1" class="card">
-                <div class="row">
-                  <div class="icon">1</div>
-                  <div class="description">
+              <label htmlFor="c1" className="card">
+                <div className="row">
+                  <div className="icon">1</div> 
+                  <div className="description">
                     <h4>Dubai</h4>
                     <p>Population: 2M</p>
                   </div>
@@ -39,10 +39,10 @@ function Sidebar() {
               </label>
 
               <input type="radio" name="slide" id="c2"></input>
-              <label for="c2" class="card">
-                <div class="row">
-                  <div class="icon">2</div>
-                  <div class="description">
+              <label htmlFor="c2" className="card">
+                <div className="row">
+                  <div className="icon">2</div>
+                  <div className="description">
                     <h4>Antalya </h4>
                     <p>Population: 3.5M</p>
                   </div>
@@ -50,10 +50,10 @@ function Sidebar() {
               </label>
 
               <input type="radio" name="slide" id="c3"></input>
-              <label for="c3" class="card">
-                <div class="row">
-                  <div class="icon">3</div>
-                  <div class="description">
+              <label htmlFor="c3" className="card">
+                <div className="row">
+                  <div className="icon">3</div>
+                  <div className="description">
                     <h4>Istanbul</h4>
                     <p>Population: 7M</p>
                   </div>
@@ -61,20 +61,20 @@ function Sidebar() {
               </label>
 
               <input type="radio" name="slide" id="c4"></input>
-              <label for="c4" class="card">
-                <div class="row">
-                  <div class="icon">4</div>
-                  <div class="description">
+              <label htmlFor="c4" className="card">
+                <div className="row">
+                  <div className="icon">4</div>
+                  <div className="description">
                     <h4>Sharm El-Sheikh</h4>
                     <p>Population 5M</p>
                   </div>
                 </div>
               </label>
               <input type="radio" name="slide" id="c5"></input>
-              <label for="c5" class="card">
-                <div class="row">
-                  <div class="icon">5</div>
-                  <div class="description">
+              <label htmlFor="c5" className="card">
+                <div className="row">
+                  <div className="icon">5</div>
+                  <div className="description">
                     <h4>Paric</h4>
                     <p>Population 4,5M</p>
                   </div>

@@ -34,8 +34,12 @@
 }
 .foother-item-text{
     font-size: 22px;
+    margin-left: 10px;
     font-family: sans-serif;
     color: rgb(124, 124, 124);
+}
+.foother-input{
+    width: 120px !important;
 }
 .foother-item-title{
     margin-bottom: 20px;
@@ -45,12 +49,13 @@
     margin-left: 50px;
 }
 .foother-list-select{
-    width: 1100px;
+    width: 1150px;
     height: 60px;
     border-radius: 40px;
     border: transparent;
     font-size: 22px;
-    margin-left: 50px;
+    margin: 0;
+    margin-left: 40px;
 }
 .foother-btn{
     width: 1100px;
@@ -121,13 +126,14 @@
             margin-left: 20px;
         }
         .foother-list-select{
-            margin: 0;margin-left: 20px;
+            width: 1050px;
+            margin: 0;margin-left: 40px;
         }
         .foother-btn{
          margin-left: 20px;
         }
         .foother-item-title{
-            margin-left: 20px;
+            margin-left: 50px;
         }
     }
     @media (max-width: 1100px) {
@@ -142,9 +148,12 @@
             width: 980px;
         }
         .foother-list-select{
-            width: 980px;
+            width: 950px;
             margin-left: 0;
-            margin-left: 10px;
+            margin-left: 40px;
+        }
+        .foother-item-title{
+            margin-left: 50px;
         }
         .foother-btn{
             width: 980px;
@@ -163,9 +172,12 @@
             width: 880px;
         }
         .foother-list-select{
-            width: 880px;
+            width: 850px;
             margin-left: 0;
-            margin-left: 10px;
+            margin-left: 40px;
+        }
+        .foother-item-title{
+            margin-left: 50px;
         }
         .foother-btn{
             width: 880px;
@@ -193,9 +205,12 @@
             font-size: 36px;
         }
         .foother-list-select{
-            width: 780px;
+            width: 750px;
             margin-left: 0;
-            margin-left: 10px;
+            margin-left: 40px;
+        }
+        .foother-item-title{
+              margin-left: 50px;
         }
         .foother-btn{
             width: 780px;
@@ -209,27 +224,37 @@
         .foother-kart{
             width: 680px;
         }
+        .foother-list{
+            margin: 0;
+            width: 650px;
+        }
         .foother-select{
-            margin-right:  10px;
-            width: 320px;
+            margin: 0;
+            width: 300px;
         }
         .foother-list-select{
-            width: 680px;
+            width: 650px;
             margin-left: 0;
-            margin-left: 10px;
+            margin-left: 40px;
         }
         .foother-btn{
             width: 680px;
             margin-left: 10px;
             margin-top: 20px;
         }
+        .foother-item-title{
+            margin-left: 50px;
+        }
     }@media (max-width: 700px) {
         .container{
             max-width: 600px;
         }
+        .foother-list{
+            max-width: 590px;
+        }
         .foother-select{
             margin-right:  10px;
-            width: 270px;
+            width: 280px;
         }
         .foother-content-text{
             font-size: 18px;
@@ -244,7 +269,7 @@
         .foother-list-select{
             width: 580px;
             margin-left: 0;
-            margin-left: 10px;
+            margin-left: 45px;
         }
         .foother-btn{
             width: 580px;
@@ -257,18 +282,23 @@
             max-width: 500px;
         }
          .foother-list{
+            margin: 0 !important;
+            display: flex;
             flex-direction: column;
+            width: 480px;
             align-items: center;
-           
          }
         .foother-content{
             height: 330px;
         }
         .foother-select{
-            margin: 0;
-            margin-right: 40px;
             width: 480px;
-            margin-bottom: 10px;
+            margin: 0 ;
+            margin-bottom: 20px;
+        }
+        .foother-list-select{
+            width: 480px;
+            margin-left: 40px !important;
         }
         .foother-content-list{
             display: flex;
@@ -309,23 +339,26 @@
         .foother-kart{
             width: 380px;
         }
+        .foother-list{
+            width: 350px;
+        }
         .foother-select{
             margin: 0;
             margin-bottom: 10px;
             margin-right: 40px;
-            width: 380px;
+            width: 350px;
         }
         .foother-content-text{
             font-size: 20px;
         }
-        .foother-content-text{
-            font-size: 30px;
+        .foother-item-title{
+            margin: 0 !important;
+            margin-left: 35px !important;
         }
         .foother-list-select{
-            width: 380px;
-            margin-bottom: 10px;
-            margin-left: 0;
-            margin-left: 10px;
+            width: 350px;
+            margin: 0 !important;
+            margin-left: 25px !important;
         }
         .foother-btn{
             width: 380px;
@@ -337,12 +370,23 @@
             max-width: 300px;
         }
         .foother-item-title{
+            margin: 0 !important;
+            margin-left: 20px !important;
             font-size: 20px;
+        }
+        .foother-list-select{
+            margin: 0 !important;
+            margin-left: 10px !important;
+            width: 250px;
+        }
+        .foother-list{
+            width: 250px;
         }
         .foother-select{
+            width: 250px;
             font-size: 20px;
         }
-        .foother-content-text{
+        .foother-item-text{
             font-size: 20px;
         }
         .foother-content-text{
@@ -387,28 +431,35 @@
         }
         .foother-item-title{
             font-size: 18px;
+            margin-left: 50px !important;
+        }
+        .foother-item-text{
+           font-size: 18px;
         }
         .foother-select{
             font-size: 18px;
         }
         .foother-btn{
             font-size: 18px;
+        }
+        .foother-list{
+            width: 200px;
         }
         .foother-select{
             margin: 0;
             margin-bottom: 10px;
-            margin-right: 40px;
-            width: 230px;
+            margin-right: 0px;
+            width: 200px;
         }
         .foother-list-select{
-            width: 230px;
+            width: 200px;
             margin-left: 0;
             margin-bottom: 10px;
-            margin-left: 10px;
+            margin-left: 40px !important;
         }
         .foother-btn{
             width: 230px;
-            margin-left: 10px;
+            margin-left: 20px;
             margin-top: 20px;
         }
     }

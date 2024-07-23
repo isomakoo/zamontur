@@ -95,8 +95,8 @@
     height: 640px;
   }
   .hero-icons{
-    width: 300px;
-    height: 100px;
+    width: 150px !important;
+    height: 50px !important;
   }
 #hero-swiper-siri {
   background-image: url("https://zamontour.uz/assets/images/sharm.jpg");
@@ -156,6 +156,10 @@
     margin-left: 20px;
     font-size: 22px;
     color:  rgb(2, 160, 160);;
+  }
+  .hero-images-1{
+    width: 160px;
+    margin-bottom: 40px;
   }
   .hero-icon{
     width: 80px;
