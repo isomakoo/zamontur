@@ -74,7 +74,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%; 
-    height: 640px;
+    height: 700px;
   }
   
   #hero-swiper-one {
@@ -83,7 +83,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;  /* kenglikni 100% qilib qo'yish yaxshiroq */
-    height: 640px;
+    height: 700px;
   }
   
   #hero-swiper-fo {
@@ -92,7 +92,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;  /* kenglikni 100% qilib qo'yish yaxshiroq */
-    height: 640px;
+    height: 700px;
   }
   .hero-icons{
     width: 150px !important;
@@ -104,7 +104,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   width: 1500px;
-  height: 640px; 
+  height: 700px; 
 }
 #lng{
   width: 40px;
@@ -119,11 +119,6 @@
 }
 .hero-ico{
   width: 220px;
-}
-.hero-icon{
-  width: 100px;
-  height: 50px;
-  margin-bottom: 20px;
 }
 .box-linkes{
   font-size: 24px;
