@@ -127,8 +127,8 @@
   text-transform: uppercase;
 }
 
-input {
-  display: none;
+#c1, #c2, #c3, #c4{
+   display: none;
 }
 
 input:checked + label {
@@ -200,11 +200,14 @@ input:checked + label .description {
 .sidebar-title{
   font-size: 36px;
 }
+.wrapper{
+  max-width: 900px;
+}
 #container{
   max-width: 900px;
 }
 input:checked + label {
-  width: 400px;
+  width: 300px;
 }
 }
 @media (max-width: 900px) {

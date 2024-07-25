@@ -96,6 +96,9 @@
   .swiper-slider{
     width: 300px;
   }
+  #myswiper{
+    max-width: 1100px;
+  }
 }
 @media (max-width: 1100px)  {
   .container{

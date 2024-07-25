@@ -59,7 +59,7 @@ function Hero() {
             <a href="#main" className="box-linkes">
               <p className="w">{t("bizhaqimizda")}</p>
             </a> <br />
-            <a href="#content" className="box-linkes">
+            <a href="#myswiper" className="box-linkes">
              <p className="w"> {t("tur")}</p>
             </a> <br />
             <a href="#sidebar-list" className="box-linkes">
@@ -83,7 +83,7 @@ function Hero() {
             </a>
           </li>
           <li className="box-list">
-            <a href="#content" className="box-link">
+            <a href="#myswiper" className="box-link">
               {t("tur")}
             </a>
           </li>

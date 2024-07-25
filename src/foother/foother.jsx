@@ -26,17 +26,11 @@ function Foother() {
               <label htmlFor="nameInput" className="foother-item-text">
                 {t("namePlaceholder")}
               </label>
-              <select id="peopleSelect" className="foother-select">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4+">4+</option>
-              </select>
-
+             <input type="text" className="foother-select"  placeholder="Ex.John Smithee"/>
               <br />
-              <label htmlFor="peopleSelect" className="foother-item-text">
-                {t("peoplePlaceholder")}
-              </label>
+              <label htmlFor="addressSelect" className="foother-item-title">
+            {t("addressTitle")}
+          </label>
               <br />
               <select id="peopleSelect" className="foother-select">
                 <option value="1">1</option>
@@ -44,30 +38,19 @@ function Foother() {
                 <option value="3">3</option>
                 <option value="4+">4+</option>
               </select>
-              <br />
             </li>
             <li className="foother-item">
               <label htmlFor="phoneInput" className="foother-item-text">
                 {t("phonePlaceholder")}
+               
               </label>{" "}
-              <br />
-              <select id="peopleSelect" className="foother-select">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4+">4+</option>
-              </select>
+             <input type="number" className="foother-select" placeholder="+998 99 123 45 67" />
               <br />
               <label htmlFor="dateInput" className="foother-item-text">
                 {t("datePlaceholder")}
               </label>
               <br />
-              <select id="peopleSelect" className="foother-select">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4+">4+</option>
-              </select>
+              <input type="datetime-local" className="foother-select" />  
             </li>
           </ul>
 
