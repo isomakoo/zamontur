@@ -47,11 +47,6 @@ function Hero() {
         />
         
         <Modal show={showModal} onClose={closeModal}>
-        <img
-          src="https://zamontour.uz/assets/images/zamon.svg"
-          alt="rasm"
-          className="hero-images-1"
-        />
           <div className="hero-madol">
           <a href="#" className="box-linkes">
              <p className="w">  {t("boshsahifa")}</p>

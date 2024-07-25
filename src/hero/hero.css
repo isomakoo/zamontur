@@ -95,6 +95,7 @@
     height: 700px;
   }
   .hero-icons{
+    color: azure;
     width: 150px !important;
     height: 50px !important;
   }
@@ -115,6 +116,7 @@
   height: 300px;
 }
 .w{
+  color: aliceblue;
   margin: 0;
 }
 .hero-ico{
