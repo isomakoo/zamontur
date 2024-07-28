@@ -25,7 +25,16 @@
     justify-content: space-evenly;
     list-style: none;
 }
-.foother-input-ism, .foother-select, .foother-input-tel, .foother-input-data{
+.foother-select{
+    width: 540px;
+    height: 60px;
+    border-radius: 40px;
+    border: transparent;
+    font-size: 22px;
+    padding-left: 20px;
+
+}
+.foother-selectt{
     width: 560px;
     height: 60px;
     border-radius: 40px;
@@ -47,7 +56,7 @@
     width: 120px !important;
 }
 .foother-item-title{
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
     font-size: 22px;
     font-family: sans-serif;
     color: rgb(124, 124, 124);
@@ -133,6 +142,9 @@
         .foother-select{
             width: 500px;
         }
+        .foother-selectt{
+            width: 520px;
+        }
         .foother-list-select{
             width: 1050px;
             margin: 0;margin-left: 40px;
@@ -151,6 +163,9 @@
         .foother-select{
             margin-right:  10px;
             width: 470px;
+        }
+        .foother-selectt{
+            width: 490px;
         }
         .foother-kart{
             width: 980px;
@@ -174,7 +189,10 @@
         }
         .foother-select{
             margin-right:  10px;
-            width: 420px;
+            width: 390px;
+        }
+        .foother-selectt{
+            width: 410px;
         }
         .foother-kart{
             width: 880px;
@@ -198,6 +216,9 @@
         }
         .foother-select{
             margin-right:  10px;
+            width: 350px;
+        }
+        .foother-selectt{
             width: 370px;
         }
         .foother-kart{
@@ -240,6 +261,9 @@
             margin: 0;
             width: 300px;
         }
+        .foother-selectt{
+            width: 320px;
+        }
         .foother-list-select{
             width: 650px;
             margin-left: 0;
@@ -258,11 +282,20 @@
             max-width: 600px;
         }
         .foother-list{
-            max-width: 590px;
+            display: flex;
+            flex-direction: column;
+            max-width: 550px;
+            margin: 0 !important;
         }
         .foother-select{
-            margin-right:  10px;
-            width: 280px;
+            margin: 0 !important;
+            width: 500px;
+            margin-right: 20px !important;
+            margin-bottom: 10px !important;
+        }
+        .foother-selectt{
+            margin-bottom: 20px !important;
+            width: 520px;
         }
         .foother-content-text{
             font-size: 18px;
@@ -275,13 +308,14 @@
             height: 400px;
         }
         .foother-list-select{
-            width: 580px;
+            width: 520px;
             margin-left: 0;
+            margin-bottom: 20px;
             margin-left: 45px;
         }
         .foother-btn{
-            width: 580px;
-            margin-left: 10px;
+            width: 540px;
+            margin-right: 20px !important;
             margin-top: 20px;
         }
     }
@@ -299,14 +333,18 @@
         .foother-content{
             height: 330px;
         }
+        .foother-selectt{
+            width: 500px;
+        }
         .foother-select{
             width: 480px;
             margin: 0 ;
             margin-bottom: 20px;
         }
         .foother-list-select{
-            width: 480px;
-            margin-left: 40px !important;
+            width: 500px !important;
+            padding-left: 20px;
+            margin-left: 20px !important;
         }
         .foother-content-list{
             display: flex;
@@ -320,6 +358,8 @@
             width: 480px;
         }
         .foother-item-title{
+            margin: 0 !important;
+            margin-left: 40px !important;
             font-size: 22px;
         }
         .foother-select{
@@ -356,6 +396,9 @@
             margin-right: 40px;
             width: 350px;
         }
+        .foother-selectt{
+            width: 370px;
+        }
         .foother-content-text{
             font-size: 20px;
         }
@@ -364,9 +407,10 @@
             margin-left: 35px !important;
         }
         .foother-list-select{
-            width: 350px;
+            width: 370px !important;
             margin: 0 !important;
-            margin-left: 25px !important;
+            margin-left: 20px !important;
+            margin-bottom: 20px !important;
         }
         .foother-btn{
             width: 380px;
@@ -384,11 +428,14 @@
         }
         .foother-list-select{
             margin: 0 !important;
-            margin-left: 10px !important;
-            width: 250px;
+            margin-bottom: 20px !important;
+            width: 290px !important;
         }
         .foother-list{
             width: 250px;
+        }
+        .foother-selectt{
+            width: 290px;
         }
         .foother-select{
             width: 250px;
@@ -452,6 +499,9 @@
         }
         .foother-list{
             width: 200px;
+        }
+        .foother-selectt{
+            width: 220px;
         }
         .foother-select{
             margin: 0;

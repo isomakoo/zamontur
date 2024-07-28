@@ -60,7 +60,7 @@ function Main() {
                 <h3 className="main-item-title">
                {t("dubai.title")}
                 </h3>
-                <button className="main-item-btn">Ko'proq Bilish</button>
+                <button className="main-item-btn">{t("main.item.more")}</button>
               </nav>
               <p className="main-item-text">{t("dubai.country")}</p>
               <p className="main-item-text">

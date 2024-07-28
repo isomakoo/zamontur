@@ -28,11 +28,11 @@ function Foother() {
               </label>
              <input type="text" className="foother-select"  placeholder="Ex.John Smithee"/>
               <br />
-              <label htmlFor="addressSelect" className="foother-item-title">
+              <label htmlFor="addressSelect" className="foother-item-text">
             {t("addressTitle")}
           </label>
               <br />
-              <select id="peopleSelect" className="foother-select">
+              <select id="peopleSelect" className="foother-selectt">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
