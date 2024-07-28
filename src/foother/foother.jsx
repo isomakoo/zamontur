@@ -70,12 +70,12 @@ function Foother() {
             {t("visaTitle")}
           </label>
           <select id="visaSelect" className="foother-list-select">
-            <option>{t("china")}</option>
-            <option>{t("country")}</option>
-            <option>{t("europe")}</option>
-            <option>{t("oman")}</option>
-            <option>{t("usa")}</option>
-            <option>{t("india")}</option>
+            <option>{t("china")} </option>
+            <option>{t("country")} </option>
+            <option>{t("europe")} </option>
+            <option>{t("oman")} </option>
+            <option>{t("usa")} </option>
+            <option>{t("india") }</option>
           </select>
           <button className="foother-btn">{t("bookButton")}</button>
         </div>

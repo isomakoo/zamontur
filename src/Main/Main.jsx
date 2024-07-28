@@ -45,7 +45,7 @@ function Main() {
                 </h3>
                 <button className="main-item-btn">{t("main.item.more")}</button>
               </nav>
-              <p className="main-item-text">Jahon bo‘ylab Manzillar</p>
+              <p className="main-item-text">Jahon buylab sayohat</p>
               <p className="main-item-text">
              {t("main.item.airlines.description")}
               </p>
